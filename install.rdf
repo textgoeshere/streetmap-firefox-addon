@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+
+<RDF xmlns="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:em="http://www.mozilla.org/2004/em-rdf#">
+
+  <Description about="urn:mozilla:install-manifest">
+  
+    <em:id>{e851fd8b-ad91-4bfa-986c-5ca86fc13a85}</em:id>
+    <em:version>1.04</em:version>
+    <em:name>Streetmap</em:name>
+    <em:description>Simple UK streetmap search from context menu</em:description>
+    <em:creator>Dave Nolan</em:creator>
+    <em:homepageURL>http://textgoeshere.org.uk/</em:homepageURL>
+  
+    <em:iconURL>chrome://streetmap/skin/streetmap.png</em:iconURL>
+    <em:aboutURL>chrome://streetmap/content/about.xul</em:aboutURL>
+    <em:optionsURL>chrome://streetmap/content/streetmapPrefs.xul</em:optionsURL>
+  
+    <em:targetApplication>
+      <Description>
+        <em:id>{ec8030f7-c20a-464f-9b0e-13a3a9e97384}</em:id>
+        <em:minVersion>1.0</em:minVersion>
+        <em:maxVersion>3.0.*</em:maxVersion>
+      </Description>
+    </em:targetApplication> 
+  
+    <em:file>
+      <Description about="urn:mozilla:extension:file:streetmap.jar">
+        <em:package>content/streetmap/</em:package>
+        <em:skin>skin/classic/streetmap/</em:skin>
+        <em:locale>locale/en-UK/streetmap/</em:locale>
+      </Description>
+    </em:file>
+  
+  </Description>
+
+</RDF>

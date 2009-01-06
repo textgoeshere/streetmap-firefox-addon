@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+
+<RDF:RDF xmlns:chrome="http://www.mozilla.org/rdf/chrome#"
+         xmlns:RDF="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+
+    <RDF:Seq about="urn:mozilla:locale:root">
+        <RDF:li resource="urn:mozilla:locale:en-UK"/>
+    </RDF:Seq>
+
+    <RDF:Description about="urn:mozilla:locale:en-UK"
+                     chrome:author="Dave Nolan"
+                     chrome:displayName="English(UK)"
+                     chrome:name="en-UK">
+        <chrome:packages>
+            <RDF:Seq about="urn:mozilla:locale:en-UK:packages">
+                <RDF:li resource="urn:mozilla:locale:en-UK:streetmap"/>
+            </RDF:Seq>
+        </chrome:packages>
+    </RDF:Description>
+</RDF:RDF>
