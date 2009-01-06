@@ -1,0 +1,7 @@
+
+overlay	chrome://browser/content/browser.xul	chrome://streetmap/content/streetmap.xul
+content	streetmap	jar:chrome/streetmap.jar!/content/streetmap/
+
+skin	streetmap	classic/1.0	jar:chrome/streetmap.jar!/skin/classic/streetmap/
+
+locale	streetmap	en-UK	jar:chrome/streetmap.jar!/locale/en-UK/streetmap/
