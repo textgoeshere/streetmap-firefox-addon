@@ -34,15 +34,15 @@ var streetmapGo = {
 
 		var mapURL;
 		
+    if (londonPrefs == true && isPC(st) != true) st = st + ", london";
 		switch(mapService)
 		{
 			case "streetmap": mapURL = "http://www.streetmap.co.uk/newsearch.srf?mapp=newmap&searchp=newsearch&name="+escape(st)+"&Submit1=search"; break
-			case "multimap": mapURL = "http://www.multimap.com/map/places.cgi?client=public&lang=&advanced=&mapsize=big&quicksearch="+escape(st);  break
 			case "googlemap": mapURL = "http://maps.google.co.uk/maps?q=" + escape(st);  break
+      case "multimap": mapURL = "http://www.multimap.com/maps/?qs=" + escape(st) "&countryCode=GB;" break
 			default: mapURL = "http://www.streetmap.co.uk/newsearch.srf?mapp=newmap&searchp=newsearch&name="+escape(st)+"&Submit1=search";
 
 		}
-		if (londonPrefs == true && isPC(st) != true) mapURL = mapURL + escape(" london");
 	  if (tabPrefs == "tabBG" || tabPrefs == "tabFG")
 	  {
   		var browser = top.document.getElementById("content");
