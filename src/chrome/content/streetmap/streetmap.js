@@ -37,7 +37,7 @@ var streetmapGo = {
 		switch(mapService)
 		{
 			case "streetmap": mapURL = "http://www.streetmap.co.uk/newsearch.srf?mapp=newmap&searchp=newsearch&name="+escape(st)+"&Submit1=search"; break
-			case "multimap": mapURL = "http://www.multimap.com/map/places.cgi?client=public&lang=&advanced=&mapsize=big&quicksearch="+escape(st);  break
+			case "multimap": mapURL = "http://www.multimap.com/maps/?countryCode=GB&qs=" + escape(st); break
 			case "googlemap": mapURL = "http://maps.google.co.uk/maps?q=" + escape(st);  break
 			default: mapURL = "http://www.streetmap.co.uk/newsearch.srf?mapp=newmap&searchp=newsearch&name="+escape(st)+"&Submit1=search";
 

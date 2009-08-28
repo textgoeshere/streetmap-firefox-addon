@@ -12,7 +12,7 @@
 <groupbox align="center" orient="horizontal">
 <vbox>
   <text value="Streetmap" style="font-weight: bold; font-size: x-large;"/>
-  <text value="ver. 1.1"/>
+  <text value="ver. 1.1.1"/>
   <separator class="thin"/>
   <text value="Created By:" style="font-weight: bold;"/>
   <text value="Dave Nolan" class="url"

@@ -3,12 +3,8 @@
 <overlay id="streetmapOverlay"
          xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
 
-// This imports our javascript.
-
 <script type="application/x-javascript" src="chrome://streetmap/content/streetmap.js">
 </script>
-
-// right-click menu
 
 <popup id="contentAreaContextMenu" class="menu-iconic streetmap-icon">
   <menu id="streetmap" label="streetmap" accesskey="m" insertafter="context-stop" class="menu-iconic streetmap-icon">

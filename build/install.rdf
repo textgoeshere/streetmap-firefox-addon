@@ -5,7 +5,7 @@
   <Description about="urn:mozilla:install-manifest">
   
     <em:id>{e851fd8b-ad91-4bfa-986c-5ca86fc13a85}</em:id>
-    <em:version>1.1</em:version>
+    <em:version>1.1.1</em:version>
     <em:name>Streetmap</em:name>
     <em:description>Simple UK streetmap search from context menu</em:description>
     <em:creator>Dave Nolan</em:creator>
